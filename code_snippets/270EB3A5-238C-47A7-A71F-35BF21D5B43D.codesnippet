@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>measure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//MARK: - &lt;# mark title #&gt;</string>
+	<string>let startMeasuringTime: CFAbsoluteTime = CFAbsoluteTimeGetCurrent()
+
+
+let measuredTimeSeconds: CFAbsoluteTime = CFAbsoluteTimeGetCurrent() - startMeasuringTime
+print("Measure took \(measuredTimeSeconds) seconds")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0FD91650-3ABE-49A4-8163-CB94C9ADDD22</string>
+	<string>270EB3A5-238C-47A7-A71F-35BF21D5B43D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>MeasureSomeCodeTime</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark</string>
+	<string>ExecutionMeasuring</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
